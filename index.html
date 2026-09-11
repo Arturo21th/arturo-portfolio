@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arturo Rosa Maduro | Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio de Arturo Rosa Maduro: full-stack developer enfocado en automatización, IA aplicada y software para pequeñas empresas."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <canvas id="network" aria-hidden="true"></canvas>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <header class="nav">
+      <a class="brand" href="#top">Arturo Rosa</a>
+      <nav aria-label="Principal">
+        <a href="#projects">Proyectos</a>
+        <a href="#experience">Experiencia</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy" data-depth="0.18">
+          <p class="eyebrow">Full-Stack Developer · AI-assisted builder</p>
+          <h1>Construyo software práctico para negocios reales.</h1>
+          <p class="lead">
+            Desarrollo apps móviles, aplicaciones web, automatizaciones con IA y herramientas internas que reducen trabajo manual, ordenan datos y ayudan a operar mejor.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#projects">Ver proyectos</a>
+            <a class="button" href="assets/cv-arturo-rosa-en.pdf">CV English</a>
+            <a class="button" href="assets/cv-arturo-rosa-es.pdf">CV Español</a>
+          </div>
+        </div>
+        <div class="device" data-tilt data-parallax>
+          <img class="hero-image" src="assets/hero.png" alt="Workspace con laptop, dashboards de negocio, factura y terminal de pago" />
+          <div class="floating-card one">
+            <span>606/607</span>
+            <strong>23 facturas leídas</strong>
+          </div>
+          <div class="floating-card two">
+            <span>RAG</span>
+            <strong>Respuestas con fuentes</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="strip reveal" aria-label="Resumen">
+        <div>
+          <strong>4+ años</strong>
+          <span>experiencia profesional</span>
+        </div>
+        <div>
+          <strong>Web + Mobile</strong>
+          <span>React Native, React, Node.js</span>
+        </div>
+        <div>
+          <strong>IA aplicada</strong>
+          <span>OCR, RAG, flujos asistidos</span>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-head">
+          <p class="eyebrow">Trabajo reciente</p>
+          <h2>Proyectos que parecen producto, no demos.</h2>
+        </div>
+
+        <div class="projects">
+          <article class="project feature" data-tilt>
+            <p class="tag">IA + contabilidad</p>
+            <h3>Automatización 606/607 DGII</h3>
+            <p>
+              App desktop que lee facturas en foto o PDF con IA, valida NCF/RNC/ITBIS, permite revisar los datos y genera Excel + TXT listos para DGII.
+            </p>
+            <ul>
+              <li>Lectura de PDFs con múltiples facturas.</li>
+              <li>Asistente DGII con RAG y fuentes citadas.</li>
+              <li>Instalador Windows con GitHub Actions.</li>
+            </ul>
+            <a href="https://github.com/Arturo21th/automatizacion-606">Ver repo</a>
+          </article>
+
+          <article class="project mobile-feature" data-tilt>
+            <div>
+              <p class="tag">Mobile + Firebase</p>
+              <h3>CookieBoo</h3>
+              <p>
+                App móvil de fidelización para una bakery: tarjeta digital de sellos, autenticación, QR para clientes, escáner para repartidores, roles y notificaciones push.
+              </p>
+              <ul>
+                <li>React Native + TypeScript para iOS y Android.</li>
+                <li>Firebase Auth, Firestore, Cloud Messaging y Functions.</li>
+                <li>Roles de cliente, repartidor y administrador.</li>
+              </ul>
+              <a href="https://github.com/Arturo21th/CookieBooApp">Ver repo</a>
+            </div>
+            <div class="phone" aria-hidden="true">
+              <div class="phone-screen">
+                <img src="assets/cookieboo-logo.png" alt="" />
+                <span>CookieBoo</span>
+                <strong>8/10 stamps</strong>
+                <div class="stamp-grid">
+                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><b></b><b></b>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project" data-tilt>
+            <p class="tag">SaaS interno</p>
+            <h3>Billing System</h3>
+            <p>Facturación para pequeñas empresas con clientes, productos, pagos parciales, estados de factura y dashboard de ingresos.</p>
+          </article>
+
+          <article class="project" data-tilt>
+            <p class="tag">Operaciones</p>
+            <h3>Parking Management</h3>
+            <p>Sistema de parqueo con zonas, tickets, suscriptores mensuales, cálculo automático de tarifas y reportes.</p>
+          </article>
+
+          <article class="project" data-tilt>
+            <p class="tag">Retail</p>
+            <h3>POS & Inventory</h3>
+            <p>Punto de venta con carrito rápido, control de stock, movimientos auditables, proveedores, recibos y alertas de bajo inventario.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section split reveal">
+        <div>
+          <p class="eyebrow">Perfil</p>
+          <h2>Developer mid-level con foco en entregar.</h2>
+        </div>
+        <div class="copy">
+          <p>
+            Experiencia en BBXCargo, Amadita, Seguros Crecer y proyectos freelance desde 2022. Me muevo bien entre frontend, backend, bases de datos y automatización de procesos.
+          </p>
+          <p>
+            Mi ventaja reciente es usar herramientas de IA como acelerador real: no para prometer magia, sino para construir, validar y documentar productos más rápido.
+          </p>
+          <div class="skills">
+            <span>React Native</span><span>React</span><span>Next.js</span><span>Node.js</span><span>TypeScript</span><span>Prisma</span><span>SQLite/Postgres</span><span>Firebase</span><span>Python</span><span>Claude Code</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <p class="eyebrow">Disponible remoto</p>
+        <h2>Busco roles full-stack donde pueda construir producto rápido.</h2>
+        <div class="actions centered">
+          <a class="button primary" href="https://github.com/Arturo21th">GitHub</a>
+          <a class="button" href="https://www.linkedin.com/in/arturo-rosa-921a0b34a/">LinkedIn</a>
+          <a class="button" href="assets/cv-arturo-rosa-en.pdf">Download CV</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
