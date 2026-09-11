@@ -26,15 +26,22 @@
     <main id="top">
       <section class="hero">
         <div class="hero-copy" data-depth="0.18">
-          <p class="eyebrow">Full-Stack Developer · AI-assisted builder</p>
-          <h1>Construyo software práctico para negocios reales.</h1>
-          <p class="lead">
+          <p class="eyebrow reveal-text"><span><span>Full-Stack Developer · AI-assisted builder</span></span></p>
+          <h1 class="reveal-text">
+            <span><span>Construyo</span></span>
+            <span><span>software</span></span>
+            <span><span>práctico</span></span>
+            <span><span>para</span></span>
+            <span><span>negocios</span></span>
+            <span><span>reales.</span></span>
+          </h1>
+          <p class="lead hero-fade" style="--i: 6">
             Desarrollo apps móviles, aplicaciones web, automatizaciones con IA y herramientas internas que reducen trabajo manual, ordenan datos y ayudan a operar mejor.
           </p>
-          <div class="actions">
-            <a class="button primary" href="#projects">Ver proyectos</a>
-            <a class="button" href="assets/cv-arturo-rosa-en.pdf">CV English</a>
-            <a class="button" href="assets/cv-arturo-rosa-es.pdf">CV Español</a>
+          <div class="actions hero-fade" style="--i: 7">
+            <a class="button primary" data-magnetic href="#projects">Ver proyectos</a>
+            <a class="button" data-magnetic href="assets/cv-arturo-rosa-en.pdf">CV English</a>
+            <a class="button" data-magnetic href="assets/cv-arturo-rosa-es.pdf">CV Español</a>
           </div>
         </div>
         <div class="device" data-tilt data-parallax>
@@ -50,29 +57,29 @@
         </div>
       </section>
 
-      <section class="strip reveal" aria-label="Resumen">
-        <div>
+      <section class="strip" aria-label="Resumen">
+        <div class="reveal" style="--i: 0">
           <strong>4+ años</strong>
           <span>experiencia profesional</span>
         </div>
-        <div>
+        <div class="reveal" style="--i: 1">
           <strong>Web + Mobile</strong>
           <span>React Native, React, Node.js</span>
         </div>
-        <div>
+        <div class="reveal" style="--i: 2">
           <strong>IA aplicada</strong>
           <span>OCR, RAG, flujos asistidos</span>
         </div>
       </section>
 
-      <section id="projects" class="section reveal">
-        <div class="section-head">
+      <section id="projects" class="section">
+        <div class="section-head reveal" style="--i: 0">
           <p class="eyebrow">Trabajo reciente</p>
           <h2>Proyectos que parecen producto, no demos.</h2>
         </div>
 
         <div class="projects">
-          <article class="project feature" data-tilt>
+          <article class="project feature reveal" data-tilt style="--i: 1">
             <p class="tag">IA + contabilidad</p>
             <h3>Automatización 606/607 DGII</h3>
             <p>
@@ -83,10 +90,10 @@
               <li>Asistente DGII con RAG y fuentes citadas.</li>
               <li>Instalador Windows con GitHub Actions.</li>
             </ul>
-            <a href="https://github.com/Arturo21th/automatizacion-606">Ver repo</a>
+            <a class="repo-link" href="https://github.com/Arturo21th/automatizacion-606">Ver repo</a>
           </article>
 
-          <article class="project mobile-feature" data-tilt>
+          <article class="project mobile-feature reveal" data-tilt style="--i: 2">
             <div>
               <p class="tag">Mobile + Firebase</p>
               <h3>CookieBoo</h3>
@@ -98,7 +105,7 @@
                 <li>Firebase Auth, Firestore, Cloud Messaging y Functions.</li>
                 <li>Roles de cliente, repartidor y administrador.</li>
               </ul>
-              <a href="https://github.com/Arturo21th/CookieBooApp">Ver repo</a>
+              <a class="repo-link" href="https://github.com/Arturo21th/CookieBooApp">Ver repo</a>
             </div>
             <div class="phone" aria-hidden="true">
               <div class="phone-screen">
@@ -112,25 +119,25 @@
             </div>
           </article>
 
-          <article class="project" data-tilt>
+          <article class="project reveal" data-tilt style="--i: 3">
             <p class="tag">SaaS interno</p>
             <h3>Billing System</h3>
             <p>Facturación para pequeñas empresas con clientes, productos, pagos parciales, estados de factura y dashboard de ingresos.</p>
-            <a href="https://github.com/Arturo21th/billing-system">Ver repo</a>
+            <a class="repo-link" href="https://github.com/Arturo21th/billing-system">Ver repo</a>
           </article>
 
-          <article class="project" data-tilt>
+          <article class="project reveal" data-tilt style="--i: 4">
             <p class="tag">Operaciones</p>
             <h3>Parking Management</h3>
             <p>Sistema de parqueo con zonas, tickets, suscriptores mensuales, cálculo automático de tarifas y reportes.</p>
-            <a href="https://github.com/Arturo21th/parking-system">Ver repo</a>
+            <a class="repo-link" href="https://github.com/Arturo21th/parking-system">Ver repo</a>
           </article>
 
-          <article class="project" data-tilt>
+          <article class="project reveal" data-tilt style="--i: 5">
             <p class="tag">Retail</p>
             <h3>POS & Inventory</h3>
             <p>Punto de venta con carrito rápido, control de stock, movimientos auditables, proveedores, recibos y alertas de bajo inventario.</p>
-            <a href="https://github.com/Arturo21th/pos-inventory-system">Ver repo</a>
+            <a class="repo-link" href="https://github.com/Arturo21th/pos-inventory-system">Ver repo</a>
           </article>
         </div>
       </section>

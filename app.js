@@ -48,6 +48,21 @@ if (!reduceMotion) {
   });
 }
 
+if (!reduceMotion) {
+  document.querySelectorAll("[data-magnetic]").forEach((button) => {
+    button.addEventListener("pointermove", (event) => {
+      if (innerWidth < 760) return;
+      const box = button.getBoundingClientRect();
+      const x = event.clientX - (box.left + box.width / 2);
+      const y = event.clientY - (box.top + box.height / 2);
+      button.style.transform = `translate(${x * 0.22}px, ${y * 0.32}px)`;
+    });
+    button.addEventListener("pointerleave", () => {
+      button.style.transform = "";
+    });
+  });
+}
+
 const canvas = document.getElementById("network");
 const context = canvas.getContext("2d");
 let width = 0;
